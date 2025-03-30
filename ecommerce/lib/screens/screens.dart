@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
@@ -13,7 +14,7 @@ class _ScreensState extends State<Screens> {
   int _selectedIndex = 0;
 
   static List<Widget> _widgetOptions = <Widget>[
-    Center(child: Text('Home Screen', style: TextStyle(fontSize: 24))),
+    Home(),
     Center(child: Text('Search Screen', style: TextStyle(fontSize: 24))),
     Center(child: Text('Notifications', style: TextStyle(fontSize: 24))),
     Center(child: Text('Profile', style: TextStyle(fontSize: 24))),
